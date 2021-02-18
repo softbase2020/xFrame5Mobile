@@ -1,18 +1,20 @@
 //
 //  MainViewController.h
-//  xFrame5Mobile
+//  appbuilder
 //
-//  Created by Sanghong Han on 2021/02/19.
+//  Created by HanSanghong on 2016. 6. 20..
+//  Copyright © 2016년 directionsoft. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-
-NS_ASSUME_NONNULL_BEGIN
+#import <CoreLocation/CoreLocation.h>
 
 @interface MainViewController : UIViewController
 
-- (void)showInfo;
+@property (nonatomic, strong) CLLocationManager *locationManager;
+
+- (void)setNetworkType:(NSString *)networkType;
+- (void)setApplicationState:(UIApplicationState)state;
+- (void)openSettingView;
 
 @end
-
-NS_ASSUME_NONNULL_END

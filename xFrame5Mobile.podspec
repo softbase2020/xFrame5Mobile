@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "xFrame5Mobile"
   spec.version      = "1.0.0"
-  spec.summary      = "A short description of xFrame5Mobile."
+  spec.summary      = "xFrame5 용 모바일앱 프레임워크"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
-  A short description of xFrame5Mobile long long 
+  (주)소프트베이스에서 개발한 UI 통합 솔루션인 xFrame5의 모바일용 iOS앱 개발을 위한 프레임워크
                    DESC
 
   spec.homepage     = "http://www.xframe.co.kr"
@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = 'Classes/*.{h,m}'
+  spec.source_files  = 'xFrame5Mobile/Classes/*.{h, m}'
   # spec.exclude_files = 'Classes/*.m'
 
   # spec.public_header_files = "Classes/**/*.h"
