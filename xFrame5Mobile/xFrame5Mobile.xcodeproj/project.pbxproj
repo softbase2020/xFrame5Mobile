@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		090E743525DED49000B923AE /* xFrame5Mobile.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E743325DED49000B923AE /* xFrame5Mobile.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		090E743E25DED4DF00B923AE /* xFrame5Mobile.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E743D25DED4DF00B923AE /* xFrame5Mobile.h */; };
+		090E744225DED7E300B923AE /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E744025DED7E300B923AE /* MainViewController.h */; };
+		090E744325DED7E300B923AE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E744125DED7E300B923AE /* MainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +18,8 @@
 		090E743325DED49000B923AE /* xFrame5Mobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xFrame5Mobile.h; sourceTree = "<group>"; };
 		090E743425DED49000B923AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		090E743D25DED4DF00B923AE /* xFrame5Mobile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xFrame5Mobile.h; sourceTree = "<group>"; };
+		090E744025DED7E300B923AE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		090E744125DED7E300B923AE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				090E743D25DED4DF00B923AE /* xFrame5Mobile.h */,
+				090E744025DED7E300B923AE /* MainViewController.h */,
+				090E744125DED7E300B923AE /* MainViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -70,6 +76,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090E744225DED7E300B923AE /* MainViewController.h in Headers */,
 				090E743525DED49000B923AE /* xFrame5Mobile.h in Headers */,
 				090E743E25DED4DF00B923AE /* xFrame5Mobile.h in Headers */,
 			);
@@ -142,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				090E744325DED7E300B923AE /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
