@@ -12,10 +12,10 @@
 		090E744325DED7E300B923AE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E744125DED7E300B923AE /* MainViewController.m */; };
 		090E745125DEE29200B923AE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E744F25DEE29200B923AE /* Reachability.m */; };
 		090E745225DEE29200B923AE /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E745025DEE29200B923AE /* Reachability.h */; };
-		090E745B25DEE50D00B923AE /* xFrame5Define.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E745925DEE50D00B923AE /* xFrame5Define.h */; };
+		090E745B25DEE50D00B923AE /* xFrame5Define.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E745925DEE50D00B923AE /* xFrame5Define.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		090E745C25DEE50D00B923AE /* xFrame5Mobile.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E745A25DEE50D00B923AE /* xFrame5Mobile.h */; };
 		090E746125DEE54A00B923AE /* xFrame5Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E745F25DEE54A00B923AE /* xFrame5Delegate.m */; };
-		090E746225DEE54A00B923AE /* xFrame5Delegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E746025DEE54A00B923AE /* xFrame5Delegate.h */; };
+		090E746225DEE54A00B923AE /* xFrame5Delegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E746025DEE54A00B923AE /* xFrame5Delegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		090E746725DEE58700B923AE /* SettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E746425DEE58700B923AE /* SettingViewController.h */; };
 		090E746825DEE58700B923AE /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E746525DEE58700B923AE /* SettingViewController.m */; };
 		090E746925DEE58700B923AE /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090E746625DEE58700B923AE /* SettingViewController.xib */; };
@@ -273,6 +273,7 @@
 			files = (
 				090E748825DEE62200B923AE /* ToastView.h in Headers */,
 				090E745B25DEE50D00B923AE /* xFrame5Define.h in Headers */,
+				090E746225DEE54A00B923AE /* xFrame5Delegate.h in Headers */,
 				090E744225DED7E300B923AE /* MainViewController.h in Headers */,
 				090E749E25DEE64C00B923AE /* SystemInfo.h in Headers */,
 				090E74AE25DEE6EF00B923AE /* NSDate+xFrame5.h in Headers */,
@@ -280,7 +281,6 @@
 				090E749F25DEE64C00B923AE /* FileHandle.h in Headers */,
 				090E746E25DEE5A500B923AE /* LogListViewController.h in Headers */,
 				090E74AD25DEE6EF00B923AE /* NSString+xFrame5.h in Headers */,
-				090E746225DEE54A00B923AE /* xFrame5Delegate.h in Headers */,
 				090E743525DED49000B923AE /* xFrame5Mobile.h in Headers */,
 				090E747525DEE5BC00B923AE /* LogViewController.h in Headers */,
 				090E749A25DEE64C00B923AE /* LogHandle.h in Headers */,
