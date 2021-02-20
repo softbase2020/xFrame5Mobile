@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		090E744225DED7E300B923AE /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E744025DED7E300B923AE /* MainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		090E744325DED7E300B923AE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E744125DED7E300B923AE /* MainViewController.m */; };
-		090E745125DEE29200B923AE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E744F25DEE29200B923AE /* Reachability.m */; };
-		090E745225DEE29200B923AE /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E745025DEE29200B923AE /* Reachability.h */; };
 		090E746125DEE54A00B923AE /* xFrame5Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E745F25DEE54A00B923AE /* xFrame5Delegate.m */; };
 		090E746725DEE58700B923AE /* SettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E746425DEE58700B923AE /* SettingViewController.h */; };
 		090E746825DEE58700B923AE /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E746525DEE58700B923AE /* SettingViewController.m */; };
@@ -21,36 +19,38 @@
 		090E747525DEE5BC00B923AE /* LogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E747225DEE5BC00B923AE /* LogViewController.h */; };
 		090E747625DEE5BC00B923AE /* LogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090E747325DEE5BC00B923AE /* LogViewController.xib */; };
 		090E747725DEE5BC00B923AE /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E747425DEE5BC00B923AE /* LogViewController.m */; };
-		090E748425DEE62200B923AE /* CommonAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090E747B25DEE62200B923AE /* CommonAlertView.xib */; };
-		090E748525DEE62200B923AE /* CommonAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E747C25DEE62200B923AE /* CommonAlertView.h */; };
-		090E748625DEE62200B923AE /* CommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E747D25DEE62200B923AE /* CommonAlertView.m */; };
-		090E748725DEE62200B923AE /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E747F25DEE62200B923AE /* ToastView.m */; };
-		090E748825DEE62200B923AE /* ToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E748025DEE62200B923AE /* ToastView.h */; };
-		090E748925DEE62200B923AE /* xFrame5WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E748225DEE62200B923AE /* xFrame5WebView.m */; };
-		090E748A25DEE62200B923AE /* xFrame5WebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E748325DEE62200B923AE /* xFrame5WebView.h */; };
-		090E749625DEE64C00B923AE /* FileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E748C25DEE64C00B923AE /* FileHandle.m */; };
-		090E749725DEE64C00B923AE /* SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E748D25DEE64C00B923AE /* SystemInfo.m */; };
-		090E749825DEE64C00B923AE /* PermissionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E748E25DEE64C00B923AE /* PermissionManager.h */; };
-		090E749925DEE64C00B923AE /* CommonFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E748F25DEE64C00B923AE /* CommonFunc.h */; };
-		090E749A25DEE64C00B923AE /* LogHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E749025DEE64C00B923AE /* LogHandle.h */; };
-		090E749B25DEE64C00B923AE /* CommonFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E749125DEE64C00B923AE /* CommonFunc.m */; };
-		090E749C25DEE64C00B923AE /* LogHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E749225DEE64C00B923AE /* LogHandle.m */; };
-		090E749D25DEE64C00B923AE /* PermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E749325DEE64C00B923AE /* PermissionManager.m */; };
-		090E749E25DEE64C00B923AE /* SystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E749425DEE64C00B923AE /* SystemInfo.h */; };
-		090E749F25DEE64C00B923AE /* FileHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E749525DEE64C00B923AE /* FileHandle.h */; };
-		090E74A925DEE6EF00B923AE /* NSString+xFrame5.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E74A225DEE6EF00B923AE /* NSString+xFrame5.m */; };
-		090E74AA25DEE6EF00B923AE /* CategoryAll.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E74A325DEE6EF00B923AE /* CategoryAll.h */; };
-		090E74AB25DEE6EF00B923AE /* NSDate+xFrame5.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E74A425DEE6EF00B923AE /* NSDate+xFrame5.m */; };
-		090E74AC25DEE6EF00B923AE /* NSDictionary+xFrame5.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E74A525DEE6EF00B923AE /* NSDictionary+xFrame5.h */; };
-		090E74AD25DEE6EF00B923AE /* NSString+xFrame5.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E74A625DEE6EF00B923AE /* NSString+xFrame5.h */; };
-		090E74AE25DEE6EF00B923AE /* NSDate+xFrame5.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E74A725DEE6EF00B923AE /* NSDate+xFrame5.h */; };
-		090E74AF25DEE6EF00B923AE /* NSDictionary+xFrame5.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E74A825DEE6EF00B923AE /* NSDictionary+xFrame5.m */; };
-		090E74B625DEE82C00B923AE /* xDimmedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E74B325DEE82C00B923AE /* xDimmedView.m */; };
-		090E74B725DEE82C00B923AE /* xDimmedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E74B425DEE82C00B923AE /* xDimmedView.h */; };
-		090E74B825DEE82C00B923AE /* xDimmedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090E74B525DEE82C00B923AE /* xDimmedView.xib */; };
 		0969575525E16C8E001FBE2C /* xFrame5Delegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575225E16C8E001FBE2C /* xFrame5Delegate.h */; };
 		0969575625E16C8E001FBE2C /* xFrame5Mobile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575325E16C8E001FBE2C /* xFrame5Mobile.h */; };
 		0969575725E16C8E001FBE2C /* xFrame5Define.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575425E16C8E001FBE2C /* xFrame5Define.h */; };
+		0969578325E16D41001FBE2C /* SystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575E25E16D41001FBE2C /* SystemInfo.h */; };
+		0969578425E16D41001FBE2C /* LogHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575F25E16D41001FBE2C /* LogHandle.h */; };
+		0969578525E16D41001FBE2C /* CommonFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969576025E16D41001FBE2C /* CommonFunc.m */; };
+		0969578625E16D41001FBE2C /* FileHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969576125E16D41001FBE2C /* FileHandle.h */; };
+		0969578725E16D41001FBE2C /* PermissionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969576225E16D41001FBE2C /* PermissionManager.h */; };
+		0969578825E16D41001FBE2C /* SystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969576325E16D41001FBE2C /* SystemInfo.m */; };
+		0969578925E16D41001FBE2C /* CommonFunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969576425E16D41001FBE2C /* CommonFunc.h */; };
+		0969578A25E16D41001FBE2C /* LogHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969576525E16D41001FBE2C /* LogHandle.m */; };
+		0969578B25E16D41001FBE2C /* PermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969576625E16D41001FBE2C /* PermissionManager.m */; };
+		0969578C25E16D41001FBE2C /* FileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969576725E16D41001FBE2C /* FileHandle.m */; };
+		0969578D25E16D41001FBE2C /* NSString+xFrame5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969576925E16D41001FBE2C /* NSString+xFrame5.m */; };
+		0969578E25E16D41001FBE2C /* CategoryAll.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969576A25E16D41001FBE2C /* CategoryAll.h */; };
+		0969578F25E16D41001FBE2C /* NSDate+xFrame5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969576B25E16D41001FBE2C /* NSDate+xFrame5.m */; };
+		0969579025E16D41001FBE2C /* NSDictionary+xFrame5.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969576C25E16D41001FBE2C /* NSDictionary+xFrame5.h */; };
+		0969579125E16D41001FBE2C /* NSString+xFrame5.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969576D25E16D41001FBE2C /* NSString+xFrame5.h */; };
+		0969579225E16D41001FBE2C /* NSDate+xFrame5.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969576E25E16D41001FBE2C /* NSDate+xFrame5.h */; };
+		0969579325E16D41001FBE2C /* NSDictionary+xFrame5.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969576F25E16D41001FBE2C /* NSDictionary+xFrame5.m */; };
+		0969579425E16D41001FBE2C /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969577225E16D41001FBE2C /* ToastView.m */; };
+		0969579525E16D41001FBE2C /* ToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969577325E16D41001FBE2C /* ToastView.h */; };
+		0969579625E16D41001FBE2C /* xFrame5WebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969577525E16D41001FBE2C /* xFrame5WebView.m */; };
+		0969579725E16D41001FBE2C /* xFrame5WebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969577625E16D41001FBE2C /* xFrame5WebView.h */; };
+		0969579825E16D41001FBE2C /* xDimmedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969577825E16D41001FBE2C /* xDimmedView.m */; };
+		0969579925E16D41001FBE2C /* xDimmedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969577925E16D41001FBE2C /* xDimmedView.h */; };
+		0969579A25E16D41001FBE2C /* xDimmedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0969577A25E16D41001FBE2C /* xDimmedView.xib */; };
+		0969579B25E16D41001FBE2C /* CommonAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0969577C25E16D41001FBE2C /* CommonAlertView.xib */; };
+		0969579C25E16D41001FBE2C /* CommonAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969577D25E16D41001FBE2C /* CommonAlertView.h */; };
+		0969579D25E16D41001FBE2C /* CommonAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969577E25E16D41001FBE2C /* CommonAlertView.m */; };
+		0969579E25E16D41001FBE2C /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969578125E16D41001FBE2C /* Reachability.m */; };
+		0969579F25E16D41001FBE2C /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969578225E16D41001FBE2C /* Reachability.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,8 +58,6 @@
 		090E743425DED49000B923AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		090E744025DED7E300B923AE /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		090E744125DED7E300B923AE /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		090E744F25DEE29200B923AE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		090E745025DEE29200B923AE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		090E745F25DEE54A00B923AE /* xFrame5Delegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xFrame5Delegate.m; sourceTree = "<group>"; };
 		090E746425DEE58700B923AE /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		090E746525DEE58700B923AE /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
@@ -70,36 +68,38 @@
 		090E747225DEE5BC00B923AE /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
 		090E747325DEE5BC00B923AE /* LogViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LogViewController.xib; sourceTree = "<group>"; };
 		090E747425DEE5BC00B923AE /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
-		090E747B25DEE62200B923AE /* CommonAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonAlertView.xib; sourceTree = "<group>"; };
-		090E747C25DEE62200B923AE /* CommonAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonAlertView.h; sourceTree = "<group>"; };
-		090E747D25DEE62200B923AE /* CommonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonAlertView.m; sourceTree = "<group>"; };
-		090E747F25DEE62200B923AE /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
-		090E748025DEE62200B923AE /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
-		090E748225DEE62200B923AE /* xFrame5WebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xFrame5WebView.m; sourceTree = "<group>"; };
-		090E748325DEE62200B923AE /* xFrame5WebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xFrame5WebView.h; sourceTree = "<group>"; };
-		090E748C25DEE64C00B923AE /* FileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHandle.m; sourceTree = "<group>"; };
-		090E748D25DEE64C00B923AE /* SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInfo.m; sourceTree = "<group>"; };
-		090E748E25DEE64C00B923AE /* PermissionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermissionManager.h; sourceTree = "<group>"; };
-		090E748F25DEE64C00B923AE /* CommonFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunc.h; sourceTree = "<group>"; };
-		090E749025DEE64C00B923AE /* LogHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogHandle.h; sourceTree = "<group>"; };
-		090E749125DEE64C00B923AE /* CommonFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFunc.m; sourceTree = "<group>"; };
-		090E749225DEE64C00B923AE /* LogHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogHandle.m; sourceTree = "<group>"; };
-		090E749325DEE64C00B923AE /* PermissionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermissionManager.m; sourceTree = "<group>"; };
-		090E749425DEE64C00B923AE /* SystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInfo.h; sourceTree = "<group>"; };
-		090E749525DEE64C00B923AE /* FileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHandle.h; sourceTree = "<group>"; };
-		090E74A225DEE6EF00B923AE /* NSString+xFrame5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+xFrame5.m"; sourceTree = "<group>"; };
-		090E74A325DEE6EF00B923AE /* CategoryAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryAll.h; sourceTree = "<group>"; };
-		090E74A425DEE6EF00B923AE /* NSDate+xFrame5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+xFrame5.m"; sourceTree = "<group>"; };
-		090E74A525DEE6EF00B923AE /* NSDictionary+xFrame5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+xFrame5.h"; sourceTree = "<group>"; };
-		090E74A625DEE6EF00B923AE /* NSString+xFrame5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+xFrame5.h"; sourceTree = "<group>"; };
-		090E74A725DEE6EF00B923AE /* NSDate+xFrame5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+xFrame5.h"; sourceTree = "<group>"; };
-		090E74A825DEE6EF00B923AE /* NSDictionary+xFrame5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+xFrame5.m"; sourceTree = "<group>"; };
-		090E74B325DEE82C00B923AE /* xDimmedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xDimmedView.m; sourceTree = "<group>"; };
-		090E74B425DEE82C00B923AE /* xDimmedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xDimmedView.h; sourceTree = "<group>"; };
-		090E74B525DEE82C00B923AE /* xDimmedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xDimmedView.xib; sourceTree = "<group>"; };
 		0969575225E16C8E001FBE2C /* xFrame5Delegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xFrame5Delegate.h; sourceTree = "<group>"; };
 		0969575325E16C8E001FBE2C /* xFrame5Mobile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xFrame5Mobile.h; sourceTree = "<group>"; };
 		0969575425E16C8E001FBE2C /* xFrame5Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xFrame5Define.h; sourceTree = "<group>"; };
+		0969575E25E16D41001FBE2C /* SystemInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemInfo.h; sourceTree = "<group>"; };
+		0969575F25E16D41001FBE2C /* LogHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogHandle.h; sourceTree = "<group>"; };
+		0969576025E16D41001FBE2C /* CommonFunc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonFunc.m; sourceTree = "<group>"; };
+		0969576125E16D41001FBE2C /* FileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileHandle.h; sourceTree = "<group>"; };
+		0969576225E16D41001FBE2C /* PermissionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PermissionManager.h; sourceTree = "<group>"; };
+		0969576325E16D41001FBE2C /* SystemInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemInfo.m; sourceTree = "<group>"; };
+		0969576425E16D41001FBE2C /* CommonFunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonFunc.h; sourceTree = "<group>"; };
+		0969576525E16D41001FBE2C /* LogHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogHandle.m; sourceTree = "<group>"; };
+		0969576625E16D41001FBE2C /* PermissionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermissionManager.m; sourceTree = "<group>"; };
+		0969576725E16D41001FBE2C /* FileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileHandle.m; sourceTree = "<group>"; };
+		0969576925E16D41001FBE2C /* NSString+xFrame5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+xFrame5.m"; sourceTree = "<group>"; };
+		0969576A25E16D41001FBE2C /* CategoryAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryAll.h; sourceTree = "<group>"; };
+		0969576B25E16D41001FBE2C /* NSDate+xFrame5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+xFrame5.m"; sourceTree = "<group>"; };
+		0969576C25E16D41001FBE2C /* NSDictionary+xFrame5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+xFrame5.h"; sourceTree = "<group>"; };
+		0969576D25E16D41001FBE2C /* NSString+xFrame5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+xFrame5.h"; sourceTree = "<group>"; };
+		0969576E25E16D41001FBE2C /* NSDate+xFrame5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+xFrame5.h"; sourceTree = "<group>"; };
+		0969576F25E16D41001FBE2C /* NSDictionary+xFrame5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+xFrame5.m"; sourceTree = "<group>"; };
+		0969577225E16D41001FBE2C /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
+		0969577325E16D41001FBE2C /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		0969577525E16D41001FBE2C /* xFrame5WebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xFrame5WebView.m; sourceTree = "<group>"; };
+		0969577625E16D41001FBE2C /* xFrame5WebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xFrame5WebView.h; sourceTree = "<group>"; };
+		0969577825E16D41001FBE2C /* xDimmedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = xDimmedView.m; sourceTree = "<group>"; };
+		0969577925E16D41001FBE2C /* xDimmedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xDimmedView.h; sourceTree = "<group>"; };
+		0969577A25E16D41001FBE2C /* xDimmedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = xDimmedView.xib; sourceTree = "<group>"; };
+		0969577C25E16D41001FBE2C /* CommonAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonAlertView.xib; sourceTree = "<group>"; };
+		0969577D25E16D41001FBE2C /* CommonAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonAlertView.h; sourceTree = "<group>"; };
+		0969577E25E16D41001FBE2C /* CommonAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonAlertView.m; sourceTree = "<group>"; };
+		0969578125E16D41001FBE2C /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		0969578225E16D41001FBE2C /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,10 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				0969574D25E16C39001FBE2C /* headers */,
-				090E74A125DEE6EF00B923AE /* Category */,
-				090E747925DEE5E200B923AE /* CommonView */,
-				090E745725DEE4EB00B923AE /* Common */,
-				090E744D25DEE29200B923AE /* Library */,
 				090E743C25DED4B900B923AE /* Classes */,
 				090E743225DED49000B923AE /* xFrame5Mobile */,
 				090E743125DED49000B923AE /* Products */,
@@ -147,6 +143,10 @@
 		090E743C25DED4B900B923AE /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0969576825E16D41001FBE2C /* Category */,
+				0969575D25E16D41001FBE2C /* Common */,
+				0969577025E16D41001FBE2C /* CommonView */,
+				0969577F25E16D41001FBE2C /* Library */,
 				090E747225DEE5BC00B923AE /* LogViewController.h */,
 				090E747425DEE5BC00B923AE /* LogViewController.m */,
 				090E747325DEE5BC00B923AE /* LogViewController.xib */,
@@ -162,103 +162,6 @@
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		090E744D25DEE29200B923AE /* Library */ = {
-			isa = PBXGroup;
-			children = (
-				090E744E25DEE29200B923AE /* Reachability */,
-			);
-			path = Library;
-			sourceTree = "<group>";
-		};
-		090E744E25DEE29200B923AE /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				090E744F25DEE29200B923AE /* Reachability.m */,
-				090E745025DEE29200B923AE /* Reachability.h */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
-		090E745725DEE4EB00B923AE /* Common */ = {
-			isa = PBXGroup;
-			children = (
-				090E748F25DEE64C00B923AE /* CommonFunc.h */,
-				090E749125DEE64C00B923AE /* CommonFunc.m */,
-				090E749525DEE64C00B923AE /* FileHandle.h */,
-				090E748C25DEE64C00B923AE /* FileHandle.m */,
-				090E749025DEE64C00B923AE /* LogHandle.h */,
-				090E749225DEE64C00B923AE /* LogHandle.m */,
-				090E748E25DEE64C00B923AE /* PermissionManager.h */,
-				090E749325DEE64C00B923AE /* PermissionManager.m */,
-				090E749425DEE64C00B923AE /* SystemInfo.h */,
-				090E748D25DEE64C00B923AE /* SystemInfo.m */,
-			);
-			path = Common;
-			sourceTree = "<group>";
-		};
-		090E747925DEE5E200B923AE /* CommonView */ = {
-			isa = PBXGroup;
-			children = (
-				090E74B225DEE82C00B923AE /* DimmedView */,
-				090E747A25DEE62200B923AE /* AlertView */,
-				090E747E25DEE62200B923AE /* ToastView */,
-				090E748125DEE62200B923AE /* WebView */,
-			);
-			path = CommonView;
-			sourceTree = "<group>";
-		};
-		090E747A25DEE62200B923AE /* AlertView */ = {
-			isa = PBXGroup;
-			children = (
-				090E747B25DEE62200B923AE /* CommonAlertView.xib */,
-				090E747C25DEE62200B923AE /* CommonAlertView.h */,
-				090E747D25DEE62200B923AE /* CommonAlertView.m */,
-			);
-			path = AlertView;
-			sourceTree = "<group>";
-		};
-		090E747E25DEE62200B923AE /* ToastView */ = {
-			isa = PBXGroup;
-			children = (
-				090E747F25DEE62200B923AE /* ToastView.m */,
-				090E748025DEE62200B923AE /* ToastView.h */,
-			);
-			path = ToastView;
-			sourceTree = "<group>";
-		};
-		090E748125DEE62200B923AE /* WebView */ = {
-			isa = PBXGroup;
-			children = (
-				090E748225DEE62200B923AE /* xFrame5WebView.m */,
-				090E748325DEE62200B923AE /* xFrame5WebView.h */,
-			);
-			path = WebView;
-			sourceTree = "<group>";
-		};
-		090E74A125DEE6EF00B923AE /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				090E74A225DEE6EF00B923AE /* NSString+xFrame5.m */,
-				090E74A325DEE6EF00B923AE /* CategoryAll.h */,
-				090E74A425DEE6EF00B923AE /* NSDate+xFrame5.m */,
-				090E74A525DEE6EF00B923AE /* NSDictionary+xFrame5.h */,
-				090E74A625DEE6EF00B923AE /* NSString+xFrame5.h */,
-				090E74A725DEE6EF00B923AE /* NSDate+xFrame5.h */,
-				090E74A825DEE6EF00B923AE /* NSDictionary+xFrame5.m */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		090E74B225DEE82C00B923AE /* DimmedView */ = {
-			isa = PBXGroup;
-			children = (
-				090E74B325DEE82C00B923AE /* xDimmedView.m */,
-				090E74B425DEE82C00B923AE /* xDimmedView.h */,
-				090E74B525DEE82C00B923AE /* xDimmedView.xib */,
-			);
-			path = DimmedView;
-			sourceTree = "<group>";
-		};
 		0969574D25E16C39001FBE2C /* headers */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +172,103 @@
 			path = headers;
 			sourceTree = "<group>";
 		};
+		0969575D25E16D41001FBE2C /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0969575E25E16D41001FBE2C /* SystemInfo.h */,
+				0969575F25E16D41001FBE2C /* LogHandle.h */,
+				0969576025E16D41001FBE2C /* CommonFunc.m */,
+				0969576125E16D41001FBE2C /* FileHandle.h */,
+				0969576225E16D41001FBE2C /* PermissionManager.h */,
+				0969576325E16D41001FBE2C /* SystemInfo.m */,
+				0969576425E16D41001FBE2C /* CommonFunc.h */,
+				0969576525E16D41001FBE2C /* LogHandle.m */,
+				0969576625E16D41001FBE2C /* PermissionManager.m */,
+				0969576725E16D41001FBE2C /* FileHandle.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		0969576825E16D41001FBE2C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0969576925E16D41001FBE2C /* NSString+xFrame5.m */,
+				0969576A25E16D41001FBE2C /* CategoryAll.h */,
+				0969576B25E16D41001FBE2C /* NSDate+xFrame5.m */,
+				0969576C25E16D41001FBE2C /* NSDictionary+xFrame5.h */,
+				0969576D25E16D41001FBE2C /* NSString+xFrame5.h */,
+				0969576E25E16D41001FBE2C /* NSDate+xFrame5.h */,
+				0969576F25E16D41001FBE2C /* NSDictionary+xFrame5.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		0969577025E16D41001FBE2C /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				0969577125E16D41001FBE2C /* ToastView */,
+				0969577425E16D41001FBE2C /* WebView */,
+				0969577725E16D41001FBE2C /* DimmedView */,
+				0969577B25E16D41001FBE2C /* AlertView */,
+			);
+			path = CommonView;
+			sourceTree = "<group>";
+		};
+		0969577125E16D41001FBE2C /* ToastView */ = {
+			isa = PBXGroup;
+			children = (
+				0969577225E16D41001FBE2C /* ToastView.m */,
+				0969577325E16D41001FBE2C /* ToastView.h */,
+			);
+			path = ToastView;
+			sourceTree = "<group>";
+		};
+		0969577425E16D41001FBE2C /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				0969577525E16D41001FBE2C /* xFrame5WebView.m */,
+				0969577625E16D41001FBE2C /* xFrame5WebView.h */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		0969577725E16D41001FBE2C /* DimmedView */ = {
+			isa = PBXGroup;
+			children = (
+				0969577825E16D41001FBE2C /* xDimmedView.m */,
+				0969577925E16D41001FBE2C /* xDimmedView.h */,
+				0969577A25E16D41001FBE2C /* xDimmedView.xib */,
+			);
+			path = DimmedView;
+			sourceTree = "<group>";
+		};
+		0969577B25E16D41001FBE2C /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				0969577C25E16D41001FBE2C /* CommonAlertView.xib */,
+				0969577D25E16D41001FBE2C /* CommonAlertView.h */,
+				0969577E25E16D41001FBE2C /* CommonAlertView.m */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		0969577F25E16D41001FBE2C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0969578025E16D41001FBE2C /* Reachability */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0969578025E16D41001FBE2C /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				0969578125E16D41001FBE2C /* Reachability.m */,
+				0969578225E16D41001FBE2C /* Reachability.h */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -276,27 +276,27 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090E748825DEE62200B923AE /* ToastView.h in Headers */,
 				090E744225DED7E300B923AE /* MainViewController.h in Headers */,
-				090E749E25DEE64C00B923AE /* SystemInfo.h in Headers */,
-				090E74AE25DEE6EF00B923AE /* NSDate+xFrame5.h in Headers */,
-				090E749925DEE64C00B923AE /* CommonFunc.h in Headers */,
 				0969575625E16C8E001FBE2C /* xFrame5Mobile.h in Headers */,
-				090E749F25DEE64C00B923AE /* FileHandle.h in Headers */,
+				0969578425E16D41001FBE2C /* LogHandle.h in Headers */,
 				090E746E25DEE5A500B923AE /* LogListViewController.h in Headers */,
-				090E74AD25DEE6EF00B923AE /* NSString+xFrame5.h in Headers */,
+				0969579025E16D41001FBE2C /* NSDictionary+xFrame5.h in Headers */,
+				0969578325E16D41001FBE2C /* SystemInfo.h in Headers */,
+				0969579F25E16D41001FBE2C /* Reachability.h in Headers */,
 				0969575525E16C8E001FBE2C /* xFrame5Delegate.h in Headers */,
+				0969579C25E16D41001FBE2C /* CommonAlertView.h in Headers */,
 				090E747525DEE5BC00B923AE /* LogViewController.h in Headers */,
-				090E749A25DEE64C00B923AE /* LogHandle.h in Headers */,
-				090E74AC25DEE6EF00B923AE /* NSDictionary+xFrame5.h in Headers */,
-				090E748A25DEE62200B923AE /* xFrame5WebView.h in Headers */,
-				090E745225DEE29200B923AE /* Reachability.h in Headers */,
-				090E748525DEE62200B923AE /* CommonAlertView.h in Headers */,
-				090E749825DEE64C00B923AE /* PermissionManager.h in Headers */,
+				0969579225E16D41001FBE2C /* NSDate+xFrame5.h in Headers */,
+				0969578725E16D41001FBE2C /* PermissionManager.h in Headers */,
 				0969575725E16C8E001FBE2C /* xFrame5Define.h in Headers */,
-				090E74AA25DEE6EF00B923AE /* CategoryAll.h in Headers */,
-				090E74B725DEE82C00B923AE /* xDimmedView.h in Headers */,
+				0969578625E16D41001FBE2C /* FileHandle.h in Headers */,
+				0969578E25E16D41001FBE2C /* CategoryAll.h in Headers */,
+				0969579725E16D41001FBE2C /* xFrame5WebView.h in Headers */,
+				0969579125E16D41001FBE2C /* NSString+xFrame5.h in Headers */,
+				0969579525E16D41001FBE2C /* ToastView.h in Headers */,
 				090E746725DEE58700B923AE /* SettingViewController.h in Headers */,
+				0969578925E16D41001FBE2C /* CommonFunc.h in Headers */,
+				0969579925E16D41001FBE2C /* xDimmedView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,11 +357,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090E748425DEE62200B923AE /* CommonAlertView.xib in Resources */,
 				090E747625DEE5BC00B923AE /* LogViewController.xib in Resources */,
-				090E74B825DEE82C00B923AE /* xDimmedView.xib in Resources */,
 				090E746925DEE58700B923AE /* SettingViewController.xib in Resources */,
 				090E747025DEE5A500B923AE /* LogListViewController.xib in Resources */,
+				0969579A25E16D41001FBE2C /* xDimmedView.xib in Resources */,
+				0969579B25E16D41001FBE2C /* CommonAlertView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,24 +372,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090E749C25DEE64C00B923AE /* LogHandle.m in Sources */,
-				090E749B25DEE64C00B923AE /* CommonFunc.m in Sources */,
+				0969578525E16D41001FBE2C /* CommonFunc.m in Sources */,
+				0969578D25E16D41001FBE2C /* NSString+xFrame5.m in Sources */,
+				0969579D25E16D41001FBE2C /* CommonAlertView.m in Sources */,
 				090E746F25DEE5A500B923AE /* LogListViewController.m in Sources */,
 				090E744325DED7E300B923AE /* MainViewController.m in Sources */,
-				090E749725DEE64C00B923AE /* SystemInfo.m in Sources */,
-				090E745125DEE29200B923AE /* Reachability.m in Sources */,
-				090E749625DEE64C00B923AE /* FileHandle.m in Sources */,
-				090E74A925DEE6EF00B923AE /* NSString+xFrame5.m in Sources */,
+				0969578C25E16D41001FBE2C /* FileHandle.m in Sources */,
+				0969578F25E16D41001FBE2C /* NSDate+xFrame5.m in Sources */,
 				090E746125DEE54A00B923AE /* xFrame5Delegate.m in Sources */,
-				090E748725DEE62200B923AE /* ToastView.m in Sources */,
-				090E74AF25DEE6EF00B923AE /* NSDictionary+xFrame5.m in Sources */,
-				090E748625DEE62200B923AE /* CommonAlertView.m in Sources */,
-				090E749D25DEE64C00B923AE /* PermissionManager.m in Sources */,
-				090E74B625DEE82C00B923AE /* xDimmedView.m in Sources */,
+				0969579325E16D41001FBE2C /* NSDictionary+xFrame5.m in Sources */,
+				0969579425E16D41001FBE2C /* ToastView.m in Sources */,
+				0969578A25E16D41001FBE2C /* LogHandle.m in Sources */,
+				0969578825E16D41001FBE2C /* SystemInfo.m in Sources */,
+				0969579825E16D41001FBE2C /* xDimmedView.m in Sources */,
+				0969579625E16D41001FBE2C /* xFrame5WebView.m in Sources */,
+				0969578B25E16D41001FBE2C /* PermissionManager.m in Sources */,
 				090E746825DEE58700B923AE /* SettingViewController.m in Sources */,
-				090E74AB25DEE6EF00B923AE /* NSDate+xFrame5.m in Sources */,
+				0969579E25E16D41001FBE2C /* Reachability.m in Sources */,
 				090E747725DEE5BC00B923AE /* LogViewController.m in Sources */,
-				090E748925DEE62200B923AE /* xFrame5WebView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
