@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		090E744225DED7E300B923AE /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E744025DED7E300B923AE /* MainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		090E744225DED7E300B923AE /* MainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E744025DED7E300B923AE /* MainViewController.h */; };
 		090E744325DED7E300B923AE /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E744125DED7E300B923AE /* MainViewController.m */; };
 		090E746125DEE54A00B923AE /* xFrame5Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E745F25DEE54A00B923AE /* xFrame5Delegate.m */; };
 		090E746725DEE58700B923AE /* SettingViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E746425DEE58700B923AE /* SettingViewController.h */; };
@@ -19,9 +19,9 @@
 		090E747525DEE5BC00B923AE /* LogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 090E747225DEE5BC00B923AE /* LogViewController.h */; };
 		090E747625DEE5BC00B923AE /* LogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090E747325DEE5BC00B923AE /* LogViewController.xib */; };
 		090E747725DEE5BC00B923AE /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090E747425DEE5BC00B923AE /* LogViewController.m */; };
-		0969575525E16C8E001FBE2C /* xFrame5Delegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575225E16C8E001FBE2C /* xFrame5Delegate.h */; };
-		0969575625E16C8E001FBE2C /* xFrame5Mobile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575325E16C8E001FBE2C /* xFrame5Mobile.h */; };
-		0969575725E16C8E001FBE2C /* xFrame5Define.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575425E16C8E001FBE2C /* xFrame5Define.h */; };
+		0969575525E16C8E001FBE2C /* xFrame5Delegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575225E16C8E001FBE2C /* xFrame5Delegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0969575625E16C8E001FBE2C /* xFrame5Mobile.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575325E16C8E001FBE2C /* xFrame5Mobile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0969575725E16C8E001FBE2C /* xFrame5Define.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575425E16C8E001FBE2C /* xFrame5Define.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0969578325E16D41001FBE2C /* SystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575E25E16D41001FBE2C /* SystemInfo.h */; };
 		0969578425E16D41001FBE2C /* LogHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 0969575F25E16D41001FBE2C /* LogHandle.h */; };
 		0969578525E16D41001FBE2C /* CommonFunc.m in Sources */ = {isa = PBXBuildFile; fileRef = 0969576025E16D41001FBE2C /* CommonFunc.m */; };
@@ -276,19 +276,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				090E744225DED7E300B923AE /* MainViewController.h in Headers */,
 				0969575625E16C8E001FBE2C /* xFrame5Mobile.h in Headers */,
+				0969575525E16C8E001FBE2C /* xFrame5Delegate.h in Headers */,
+				0969575725E16C8E001FBE2C /* xFrame5Define.h in Headers */,
+				090E744225DED7E300B923AE /* MainViewController.h in Headers */,
 				0969578425E16D41001FBE2C /* LogHandle.h in Headers */,
 				090E746E25DEE5A500B923AE /* LogListViewController.h in Headers */,
 				0969579025E16D41001FBE2C /* NSDictionary+xFrame5.h in Headers */,
 				0969578325E16D41001FBE2C /* SystemInfo.h in Headers */,
 				0969579F25E16D41001FBE2C /* Reachability.h in Headers */,
-				0969575525E16C8E001FBE2C /* xFrame5Delegate.h in Headers */,
 				0969579C25E16D41001FBE2C /* CommonAlertView.h in Headers */,
 				090E747525DEE5BC00B923AE /* LogViewController.h in Headers */,
 				0969579225E16D41001FBE2C /* NSDate+xFrame5.h in Headers */,
 				0969578725E16D41001FBE2C /* PermissionManager.h in Headers */,
-				0969575725E16C8E001FBE2C /* xFrame5Define.h in Headers */,
 				0969578625E16D41001FBE2C /* FileHandle.h in Headers */,
 				0969578E25E16D41001FBE2C /* CategoryAll.h in Headers */,
 				0969579725E16D41001FBE2C /* xFrame5WebView.h in Headers */,
