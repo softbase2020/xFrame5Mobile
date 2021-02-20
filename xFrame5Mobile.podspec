@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "xFrame5Mobile"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.5"
   spec.summary      = "xFrame5 용 모바일앱 프레임워크"
 
   # This description is used to generate tags and improve search results.
@@ -91,7 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = 'xFrame5Mobile/Classes/*.{h, m}'
+  spec.source_files  = 'xFrame5Mobile/**/*.{h,m}'
+
   # spec.exclude_files = 'Classes/*.m'
 
   # spec.public_header_files = "Classes/**/*.h"

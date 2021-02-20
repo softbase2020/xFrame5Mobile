@@ -6,7 +6,7 @@
 //  Copyright © 2016년 directionsoft. All rights reserved.
 //
 
-#import "xFrame5Delegate.h"
+#import <xFrame5Delegate.h>
 
 #define kScreenBoundsWidth              [[UIScreen mainScreen] bounds].size.width
 #define kScreenBoundsHeight             [[UIScreen mainScreen] bounds].size.height
