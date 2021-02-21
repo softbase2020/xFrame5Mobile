@@ -7,7 +7,7 @@
 //
 
 #import "ToastView.h"
-#import "xFrame5Define.h"
+#import "xFrame5Mobile.h"
 
 #define kToastViewBottomGap         50
 #define kToastViewTextGap           10

@@ -9,7 +9,7 @@
 #import "LogHandle.h"
 #import "CommonFunc.h"
 
-#import "xFrame5Define.h"
+#import "xFrame5Mobile.h"
 #import "NSString+xFrame5.h"
 #import "NSDate+xFrame5.h"
 

@@ -9,11 +9,8 @@
 #import "xFrame5Delegate.h"
 #import "MainViewController.h"
 #import "Reachability.h"
-#import "xFrame5Define.h"
+#import "xFrame5Mobile.h"
 
-//#import "LogHandle.h"
-//#import "CommonAlertView.h"
-//#import "NSDate+xFrame5.h"
 
 @interface xFrame5Delegate() <UIAlertViewDelegate>
 {

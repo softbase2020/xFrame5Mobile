@@ -1,10 +1,11 @@
 //
-//  AppBuilderDefine.h
-//  appbuilder
+//  xFrame5Mobile.h
+//  xFrame5Mobile
 //
-//  Created by HanSanghong on 2016. 6. 30..
-//  Copyright © 2016년 directionsoft. All rights reserved.
+//  Created by Sanghong Han on 2021/02/19.
 //
+
+#import <UIKit/UIKit.h>
 
 #import <xFrame5Delegate.h>
 
@@ -52,4 +53,3 @@ typedef NS_ENUM(NSInteger, DebugType) {
     DebugTypeNone = -1,
 
 };
-

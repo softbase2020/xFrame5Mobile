@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "xFrame5Define.h"
+#import "xFrame5Mobile.h"
 
 @interface FileHandle : NSObject
 

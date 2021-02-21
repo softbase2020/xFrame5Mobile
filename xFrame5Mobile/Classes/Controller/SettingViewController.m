@@ -8,7 +8,7 @@
 
 #import "SettingViewController.h"
 
-#import "xFrame5Define.h"
+#import "xFrame5Mobile.h"
 #import "CommonAlertView.h"
 
 @interface SettingViewController ()

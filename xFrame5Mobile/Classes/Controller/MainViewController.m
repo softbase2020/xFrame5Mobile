@@ -25,7 +25,9 @@
 #import "CommonAlertView.h"
 #import "PermissionManager.h"
 
-#import "CategoryAll.h"
+#import "NSDate+xFrame5.h"
+#import "NSString+xFrame5.h"
+#import "NSDictionary+xFrame5.h"
 
 #import <AudioToolbox/AudioToolbox.h>
 #import <AudioToolbox/AudioServices.h>

@@ -7,7 +7,7 @@
 //
 
 #import "CommonAlertView.h"
-#import "xFrame5Define.h"
+#import "xFrame5Mobile.h"
 
 #define kAlertViewSize      290
 #define kAlertDuration      0.3f
