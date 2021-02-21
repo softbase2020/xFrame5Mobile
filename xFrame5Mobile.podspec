@@ -8,30 +8,5 @@ Pod::Spec.new do |spec|
   spec.author       = { "hansne" => "hans@directionsoft.com" }
   spec.ios.deployment_target = "10.0"
   spec.source       = { :git => "https://github.com/softbase2020/xFrame5Mobile.git", :tag => "#{spec.version}" }
-  spec.source_files  = 'xFrame5Mobile/xFrame5Mobile/*.h'
-
-  spec.subspec 'Delegate' do |ss|
-    ss.source_files = 'xFrame5Mobile/Delegate/*.{h,m}'
-  end
-
-  spec.subspec 'Controller' do |ss|
-    ss.source_files = 'xFrame5Mobile/Classes/Controller/*.{h,m}'
-  end
-
-  spec.subspec 'Category' do |ss|
-    ss.source_files = 'xFrame5Mobile/Classes/Category/*.{h,m}'
-  end
-
-  spec.subspec 'Common' do |ss|
-    ss.source_files = 'xFrame5Mobile/Classes/Common/*.{h,m}'
-  end
-
-  spec.subspec 'CommonView' do |ss|
-    ss.source_files = 'xFrame5Mobile/Classes/CommonView/**/*.{h,m}'
-  end
-
-  spec.subspec 'Library' do |ss|
-    ss.source_files = 'xFrame5Mobile/Classes/Library/**/*.{h,m}'
-  end
-
+  spec.source_files  = 'xFrame5Mobile/Delegate/**/*.{h,m}', 'xFrame5Mobile/Classes/**/*.{h,m}','xFrame5Mobile/xFrame5Mobile/*.h'
 end
