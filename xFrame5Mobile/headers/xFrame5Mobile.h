@@ -9,4 +9,3 @@
 
 #import "xFrame5Define.h"
 #import "xFrame5Delegate.h"
-#import "CommonAlertView.h"
