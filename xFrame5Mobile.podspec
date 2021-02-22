@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "xFrame5Mobile"
-  spec.version      = "1.1.0"
+  spec.version      = "1.1.1"
   spec.summary      = "xFrame5 용 모바일앱 프레임워크"
   spec.description  = "(주)소프트베이스에서 개발한 UI 통합 솔루션인 xFrame5의 모바일용 iOS앱 개발을 위한 프레임워크"
   spec.homepage     = "http://www.xframe.co.kr"

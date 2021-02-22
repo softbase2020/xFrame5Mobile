@@ -5,22 +5,34 @@
 
 ## 2. 사용법
 
-**설치하기**
+**cocoapod로 설치**
 
     pod "xFrame5Mobile"
 
-**프로젝트에서 설정하기**
+**info.plist에 xFrame5키 추가**
 
-    xFrame5Mobile 프레임워크를 사용하는 프로젝트를 선택한 후 info.plist에 NSDictionary 타입의 xFrame5 키를 생성
+xFrame5Mobile 프레임워크를 사용하는 프로젝트를 선택한 후 info.plist에 NSDictionary 타입의 xFrame5 키를 생성
 
-    ```
+```
     <key>xFrame5</key>
 	<dict>
-		<key>PushEnable</key>
-		<true/>
 		<key>START_PAGE</key>
 		<string>http://xxxxxx/test.html</string>
 		<key>debug</key>
 		<true/>
 	</dict>
-    ```
+```
+
+* START_PAGE : 앱 구동시 처음 호출되는 URL
+* debug : 디버그 모드 여부
+* PushEnable
+
+**사용되는 기능에 따라 info.plist에 권한 문구 추가**
+
+* 앨범 기능을 사용하는 경우
+	* Privacy - Photo Library Usage Description 항목 추가
+* 카메라 기능을 사용하는 경우
+	* Privacy - Camera Usage Description 항목 추가
+* 위치 기능을 사용하는 경우
+	* Privacy - Location Always Usage Description 항목 추가
+	* Privacy - Location When In Use Usage Description 항목 추가

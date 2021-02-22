@@ -125,16 +125,10 @@
         return NO;
     }
     
-//    if (dictInfoKey[@"START_PAGE"] && ![dictInfoKey[@"START_PAGE"] isEqualToString:@""]) {
-//        NSMutableDictionary *dict = [NSMutableDictionary dictionary];
-//        [dict setValue:dictInfoKey[@"START_PAGE"] forKey:@"initPage"];
-//        [UserDefaults setValue:dict forKey:@"xFrame5"];
-//        [UserDefaults synchronize];
-//    }
-//    else {
-//        [NSException raise:kFrameworkName format:@"%@", @"xFrame5 항목에 START_PAGE가 올바르지 않습니다."];
-//        return NO;
-//    }
+    if (dictInfoKey[@"START_PAGE"] == nil || [dictInfoKey[@"START_PAGE"] isEqualToString:@""]) {
+        [NSException raise:kFrameworkName format:@"%@", @"xFrame5 항목에 START_PAGE가 올바르지 않습니다."];
+        return NO;
+    }
     
    _mainViewController = [[MainViewController alloc] init];
    UINavigationController *rootNav = [[UINavigationController alloc] initWithRootViewController:_mainViewController];
