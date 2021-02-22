@@ -375,6 +375,63 @@
     }
 }
 
+#pragma mark - WKWebView WKUIDelegate
+
+- (void)webView:(WKWebView *)webView runJavaScriptAlertPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(void))completionHandler {
+    dispatch_async(dispatch_get_main_queue(), ^(void) {
+        @try {
+            UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"xFrame5" message:message preferredStyle:UIAlertControllerStyleAlert];
+            [alertController addAction:[UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+                completionHandler();
+            }]];
+            UIViewController *app = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
+            [app presentViewController:alertController animated:YES completion:nil];
+        }
+        @catch (NSException *exception) {
+            NSLog(@"%@",exception);
+        }
+    });
+}
+
+- (void)webView:(WKWebView *)webView runJavaScriptConfirmPanelWithMessage:(NSString *)message initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(BOOL))completionHandler {
+    
+    dispatch_async(dispatch_get_main_queue(),^{
+
+        // TODO We have to think message to confirm "YES"
+        UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"xFrame5" message:message preferredStyle:UIAlertControllerStyleAlert];
+        [alertController addAction:[UIAlertAction actionWithTitle:@"확인" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+            completionHandler(YES);
+        }]];
+        [alertController addAction:[UIAlertAction actionWithTitle:@"취소" style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+            completionHandler(NO);
+        }]];
+        [alertController.view setNeedsLayout];
+        
+        UIViewController *app = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
+        [app presentViewController:alertController animated:YES completion:nil];
+    });
+}
+
+- (void)webView:(WKWebView *)webView runJavaScriptTextInputPanelWithPrompt:(NSString *)prompt defaultText:(NSString *)defaultText initiatedByFrame:(WKFrameInfo *)frame completionHandler:(void (^)(NSString *))completionHandler {
+    
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:prompt message:@"xFrame5" preferredStyle:UIAlertControllerStyleAlert];
+    [alertController addTextFieldWithConfigurationHandler:^(UITextField *textField) {
+        textField.text = defaultText;
+    }];
+    
+    [alertController addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"OK", nil) style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) {
+        NSString *input = ((UITextField *)alertController.textFields.firstObject).text;
+        completionHandler(input);
+    }]];
+    
+    [alertController addAction:[UIAlertAction actionWithTitle:NSLocalizedString(@"Cancel", nil) style:UIAlertActionStyleCancel handler:^(UIAlertAction *action) {
+        completionHandler(nil);
+    }]];
+    
+    UIViewController *app = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
+    [app presentViewController:alertController animated:YES completion:nil];
+}
+
 #pragma mark - WKWebView Delegate
 
 - (void)webView:(WKWebView *)webView didStartProvisionalNavigation:(null_unspecified WKNavigation *)navigation
