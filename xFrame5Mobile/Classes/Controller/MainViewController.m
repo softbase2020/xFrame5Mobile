@@ -779,9 +779,9 @@
  */
 - (void)openSettingView
 {
-    NSBundle *bundle = [NSBundle bundleWithIdentifier:kFramworkBundle];
+    //NSBundle *bundle = [NSBundle bundleWithIdentifier:kFramworkBundle];
     
-    SettingViewController *controller = [[SettingViewController alloc] initWithNibName:@"SettingViewController" bundle:bundle];
+    SettingViewController *controller = [[SettingViewController alloc] initWithNibName:@"SettingViewController" bundle:nil];
     controller.modalPresentationStyle = UIModalPresentationOverFullScreen;
     [self presentViewController:controller animated:YES completion:nil];
 }
