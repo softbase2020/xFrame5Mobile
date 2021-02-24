@@ -781,7 +781,11 @@
 {
     //NSBundle *bundle = [NSBundle bundleWithIdentifier:kFramworkBundle];
     
-    SettingViewController *controller = [[SettingViewController alloc] initWithNibName:@"SettingViewController" bundle:nil];
+    NSBundle *podBundle = [NSBundle bundleForClass:[SettingViewController class]];
+    id data = [podBundle URLForResource:@"xFrame5Mobile" withExtension:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithURL:data];
+    
+    SettingViewController *controller = [[SettingViewController alloc] initWithNibName:@"SettingViewController" bundle:bundle];
     controller.modalPresentationStyle = UIModalPresentationOverFullScreen;
     [self presentViewController:controller animated:YES completion:nil];
 }
