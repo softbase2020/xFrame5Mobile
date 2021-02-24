@@ -80,8 +80,11 @@
 {
     self = [super init];
     if (self) {
+    
+        NSBundle *podBundle = [NSBundle bundleForClass:[self class]];
+        id data = [podBundle URLForResource:@"xFrame5Mobile" withExtension:@"bundle"];
+        NSBundle *ltBundle = [NSBundle bundleWithURL:data];
         
-        NSBundle *ltBundle = [NSBundle bundleWithIdentifier:kFramworkBundle];
         NSString *className = NSStringFromClass([self class]);
         UIView *v = [[ltBundle loadNibNamed:className owner:self options:nil] firstObject];
         v.frame = self.bounds;

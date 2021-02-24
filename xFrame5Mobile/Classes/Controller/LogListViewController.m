@@ -68,7 +68,9 @@
     NSString *filename = [_arrLogFileList objectAtIndex:indexPath.row];
     NSString *sContents = [_logger contentsOfFile:filename];
     
-    NSBundle *bundle = [NSBundle bundleWithIdentifier:@"com.softbase.xFrame5"];
+    NSBundle *podBundle = [NSBundle bundleForClass:[LogViewController class]];
+    id data = [podBundle URLForResource:@"xFrame5Mobile" withExtension:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithURL:data];
     
     LogViewController *controller = [[LogViewController alloc] initWithNibName:@"LogViewController" bundle:bundle];
     controller.sDatas = sContents;

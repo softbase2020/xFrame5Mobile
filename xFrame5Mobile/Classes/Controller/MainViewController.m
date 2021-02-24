@@ -245,7 +245,10 @@
         }
         [self.locationManager startUpdatingLocation];
         
-        NSBundle *bundle = [NSBundle bundleWithIdentifier:@"com.softbase.xFrame5"];
+        NSBundle *podBundle = [NSBundle bundleForClass:[self class]];
+        id data = [podBundle URLForResource:@"xFrame5Mobile" withExtension:@"bundle"];
+        NSBundle *bundle = [NSBundle bundleWithURL:data];
+        
         NSArray *arrDimmedViews = [bundle loadNibNamed:@"xDimmedView" owner:self options:nil];
         _dimmedView = (xDimmedView *)[arrDimmedViews objectAtIndex:0];
         _dimmedView.frame = self.view.bounds;
@@ -283,7 +286,10 @@
 
 - (void)eventLock:(NSDictionary *)dict
 {
-    NSBundle *bundle = [NSBundle bundleWithIdentifier:@"com.softbase.xFrame5"];
+    NSBundle *podBundle = [NSBundle bundleForClass:[self class]];
+    id data = [podBundle URLForResource:@"xFrame5Mobile" withExtension:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithURL:data];
+    
     NSArray *arrDimmedViews = [bundle loadNibNamed:@"xDimmedView" owner:self options:nil];
     
     _dimmedView = (xDimmedView *)[arrDimmedViews objectAtIndex:0];
@@ -709,7 +715,9 @@
 
 - (void)logView:(NSDictionary *)dict
 {
-    NSBundle *bundle = [NSBundle bundleWithIdentifier:@"com.softbase.xFrame5"];
+    NSBundle *podBundle = [NSBundle bundleForClass:[self class]];
+    id data = [podBundle URLForResource:@"xFrame5Mobile" withExtension:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithURL:data];
     
     NSLog(@"logview is %@", dict);
     
@@ -723,7 +731,6 @@
         [self presentViewController:nav animated:YES completion:nil];
     }
     else {
-        
         LogListViewController *controller = [[LogListViewController alloc] initWithNibName:@"LogListViewController" bundle:bundle];
         UINavigationController *nav  = [[UINavigationController alloc] initWithRootViewController:controller];
         [self presentViewController:nav animated:YES completion:nil];
@@ -779,8 +786,6 @@
  */
 - (void)openSettingView
 {
-    //NSBundle *bundle = [NSBundle bundleWithIdentifier:kFramworkBundle];
-    
     NSBundle *podBundle = [NSBundle bundleForClass:[SettingViewController class]];
     id data = [podBundle URLForResource:@"xFrame5Mobile" withExtension:@"bundle"];
     NSBundle *bundle = [NSBundle bundleWithURL:data];
